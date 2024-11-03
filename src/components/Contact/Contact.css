@@ -1,0 +1,46 @@
+.contact__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 136px;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    padding-bottom: 30px;
+
+    @media (max-width:740px) {
+        .image{
+            display: none;
+        }
+        .b{
+            margin: 0 auto;
+        }
+    }
+
+}
+
+.contact__box1{
+    max-width: 360px;
+}
+
+h1{
+    font-size: 48px;
+}
+
+p{
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+
+button{
+    margin-top: 30px;
+    background-color: #8EADD5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    max-width: 170px;
+    font-size: 16px;
+    cursor: pointer;
+}

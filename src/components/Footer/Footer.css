@@ -1,0 +1,32 @@
+.footer {
+    background-color: #F6F6F6;
+    margin-top: 140px;
+
+
+    .about__text {
+        color: rgba(39, 45, 56, 1);
+
+        text-align: center;
+        margin-top: 110px;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 180px;
+        padding-bottom: 30px;
+
+        @media (max-width: 740px) {
+            flex-direction: column;
+            gap: 72px;
+        }
+
+        .about__box {
+            max-width: 190px;
+        }
+
+
+    }
+}

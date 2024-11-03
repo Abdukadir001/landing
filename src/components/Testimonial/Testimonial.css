@@ -1,0 +1,60 @@
+.testimonial__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+    gap: 20px;
+
+    .testimonial__title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        p{
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        h1{
+            font-size: 48px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+    }
+
+    .cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        
+
+        .card{
+            max-width: 345px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            border: none;
+            background-color: #F6F6F6;
+            border-radius: 15px;
+            padding: 32px 32px;
+
+            h3{
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            p{
+                margin-top: 19;
+                font-size: 14px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

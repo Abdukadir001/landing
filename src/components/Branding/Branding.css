@@ -1,0 +1,33 @@
+.branding__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 170px;
+    margin-top: 130px;
+
+
+    @media (max-width:740px) {
+        .arrow{
+            rotate: 90deg;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    .box2{
+        max-width: 430px;
+    }
+
+    h1{
+        font-size: 48px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 25px;
+    }
+    
+    p{
+        font-size: 16px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-bottom: 40px;
+    }
+}

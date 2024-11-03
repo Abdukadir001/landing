@@ -1,0 +1,103 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1580px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header{
+    
+    padding-top: 50px;
+    margin-bottom: 157px;
+}
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+
+    .menu{
+        display: flex;
+        gap: 45px;
+
+        .bg-image{
+            display: none;
+        }
+
+        a{
+            text-decoration: none;
+            color: #272D38;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: block;
+            
+            
+        }
+
+        @media(max-width:740px){
+            .a{
+                display: none;
+            }
+            .bg-image{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 75px;
+        
+
+        .box1{
+            display: flex;
+            flex-direction: column;
+            max-width: 540px;
+            gap: 32px;
+
+            h1{
+                color: #272D38;
+                font-size: 64px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-bottom: 0;
+            }
+    
+            p{
+                color: #272D38;
+                font-size: 18px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                letter-spacing: 2px;
+            }
+
+            button{
+                background-color: #8EADD5;
+                color: #fff;
+                border: none;
+                border-radius: 10px;
+                padding: 10px 30px;
+                max-width: 170px;
+                cursor: pointer;
+
+                @media (max-width:740px) {
+                    margin: 0 auto;    
+                }
+            }
+        }
+
+       
+    }
+
